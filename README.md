@@ -1,68 +1,40 @@
 # rubylens
 
-`rubylens` explores static analysis in Ruby. The repository keeps the core rule set compact, then surrounds it with examples that show how the decisions move.
+`rubylens` is a compact Ruby repository for static analysis, centered on this goal: Crawl static-site links and report broken internal references.
 
-## Rubylens Notes
+## Problem It Tries To Make Smaller
 
-The quickest review path is the verifier first, then the fixtures, then the operations note. That order makes it easy to see whether the code, data, and explanation still agree.
+The point is to make a small domain rule concrete enough that a reader can change it and immediately see what broke.
 
-## Implementation Notes
+## Rubylens Review Notes
 
-The project is organized around a compact model rather than a large framework. Inputs are scored, classified, and checked against golden fixtures. The constants live in code and are mirrored in metadata so documentation drift is easy to catch. The Ruby code keeps the module small and leans on Minitest for direct fixture checks.
+The first comparison I would make is `rule hit` against `rule hit` because it shows where the rule is most opinionated.
 
-## Why This Exists
+## Working Pieces
 
-I use this kind of project to make a rule visible before adding more machinery around it. The important part here is not the size of the codebase. It is that the input signals, scoring rule, fixture data, and expected output can all be checked in one sitting.
+- `fixtures/domain_review.csv` adds cases for rule hit and source span.
+- `metadata/domain-review.json` records the same cases in structured form.
+- `config/review-profile.json` captures the read order and the two review questions.
+- `examples/rubylens-walkthrough.md` walks through the case spread.
+- The Ruby code includes a review path for `rule hit` and `rule hit`.
+- `docs/field-notes.md` explains the strongest and weakest cases.
 
-## Feature Notes
+## Design Notes
 
-- Uses fixture data to keep risk flags changes visible in code review.
-- Includes extended examples for rule matches, including `surge` and `degraded`.
-- Documents review output tradeoffs in `docs/operations.md`.
-- Runs locally with a single verification command and no external credentials.
-- Stores project constants and verification metadata in `metadata/project.json`.
+The core code exposes a scoring path and the added review layer uses `signal`, `slack`, `drag`, and `confidence`. The domain terms are `rule hit`, `source span`, `risk density`, and `false positive cost`.
 
-## Example Scenarios
+The Ruby code keeps the review rule close to the tests.
 
-The extended cases are not random smoke tests. `degraded` keeps pressure on the review path, while `surge` shows the model when capacity and weight are strong enough to clear the threshold.
-
-## Code Tour
-
-- `lib`: library code
-- `tests`: verification harness
-- `fixtures`: compact golden scenarios
-- `examples`: expanded scenario set
-- `metadata`: project constants and verification metadata
-- `docs`: operations and extension notes
-- `scripts`: local verification and audit commands
-
-## Local Setup
-
-Install Ruby and run the commands from the repository root. The project does not need credentials or a hosted service.
-
-## Try It
+## Example Run
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify.ps1
 ```
 
-This runs the language-level build or test path against the compact fixture set.
-
 ## Tests
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/audit.ps1
-```
+That command is also the regression path. It verifies the domain cases and catches mismatches between the CSV, metadata, and code.
 
-The audit command checks repository structure and README constraints before it delegates to the verifier.
+## Known Limits
 
-## Boundaries
-
-The fixture set is deliberately small. That keeps the review surface clear, but it also means the model should not be treated as a complete domain simulator.
-
-## Roadmap
-
-- Add a comparison mode that shows how decisions change when one signal is adjusted.
-- Add a loader for `examples/extended_cases.csv` and promote selected cases into the language test suite.
-- Add a short report command that prints the score breakdown for a single scenario.
-- Add one more static analysis fixture that focuses on a malformed or borderline input.
+The fixture set is small enough to audit by hand. The next useful expansion is malformed input coverage, not extra surface area.

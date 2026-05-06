@@ -1,0 +1,6 @@
+name,focus,signal,slack,drag,confidence,score,lane
+baseline,rule hit,78,44,20,46,186,ship
+stress,source span,58,25,11,57,165,ship
+edge,risk density,53,46,11,48,167,ship
+recovery,false positive cost,49,50,8,45,169,ship
+stale,rule hit,57,26,11,45,152,ship

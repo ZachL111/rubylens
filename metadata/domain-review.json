@@ -1,0 +1,73 @@
+{
+  "repo": "rubylens",
+  "language": "Ruby",
+  "category": "Static analysis",
+  "goal": "Crawl static-site links and report broken internal references.",
+  "review_model": {
+    "terms": [
+      "rule hit",
+      "source span",
+      "risk density",
+      "false positive cost"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "rule hit",
+      "signal": 78,
+      "slack": 44,
+      "drag": 20,
+      "confidence": 46,
+      "score": 186,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "source span",
+      "signal": 58,
+      "slack": 25,
+      "drag": 11,
+      "confidence": 57,
+      "score": 165,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "risk density",
+      "signal": 53,
+      "slack": 46,
+      "drag": 11,
+      "confidence": 48,
+      "score": 167,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "false positive cost",
+      "signal": 49,
+      "slack": 50,
+      "drag": 8,
+      "confidence": 45,
+      "score": 169,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "rule hit",
+      "signal": 57,
+      "slack": 26,
+      "drag": 11,
+      "confidence": 45,
+      "score": 152,
+      "lane": "ship"
+    }
+  ]
+}

@@ -56,3 +56,8 @@ foreach ($pathPattern in $knownPaths) {
 }
 
 ruby -Ilib tests/test_policy.rb
+
+
+ruby -Ilib tests/test_domain_review.rb
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-rubylens-detail.ps1
