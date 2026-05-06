@@ -1,0 +1,28 @@
+id,focus,signal,slack,drag,confidence,score,lane
+l001,source span,35,33,6,25,191,ship
+l002,risk density,35,34,6,55,253,ship
+l003,false positive cost,35,35,6,85,315,ship
+l004,rule hit,35,36,18,25,137,watch
+l005,source span,35,37,18,55,199,ship
+l006,risk density,35,38,18,85,261,ship
+l007,false positive cost,35,39,34,25,63,hold
+l008,rule hit,35,40,34,55,125,watch
+l009,source span,35,41,34,85,187,ship
+l010,risk density,60,42,6,25,284,ship
+l011,false positive cost,60,43,6,55,346,ship
+l012,rule hit,60,44,6,85,408,ship
+l013,source span,60,45,18,25,230,ship
+l014,risk density,60,46,18,55,292,ship
+l015,false positive cost,60,47,18,85,354,ship
+l016,rule hit,60,48,34,25,156,watch
+l017,source span,60,32,34,55,184,ship
+l018,risk density,60,33,34,85,246,ship
+l019,false positive cost,85,34,6,25,343,ship
+l020,rule hit,85,35,6,55,405,ship
+l021,source span,85,36,6,85,467,ship
+l022,risk density,85,37,18,25,289,ship
+l023,false positive cost,85,38,18,55,351,ship
+l024,rule hit,85,39,18,85,413,ship
+l025,source span,85,40,34,25,215,ship
+l026,risk density,85,41,34,55,277,ship
+l027,false positive cost,85,42,34,85,339,ship

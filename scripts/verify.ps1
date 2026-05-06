@@ -61,3 +61,13 @@ ruby -Ilib tests/test_policy.rb
 ruby -Ilib tests/test_domain_review.rb
 
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-rubylens-detail.ps1
+
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-rubylens-properties.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-rubylens-golden.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -1,0 +1,97 @@
+id,parent,focus,signal,slack,drag,confidence,score,lane,kind,invariant,mutation
+m001,g001,rule hit,111,40,11,91,540,ship,baseline,monotonic-signal,raise-signal
+m002,g002,source span,117,53,31,21,344,ship,edge,drag-penalty,drop-slack
+m003,g003,risk density,84,43,29,42,277,ship,recovery,confidence-floor,raise-drag
+m004,g004,false positive cost,115,70,40,36,357,ship,negative,lane-boundary,lower-confidence
+m005,g005,rule hit,55,16,8,100,357,ship,baseline,monotonic-signal,raise-signal
+m006,g006,source span,103,51,15,87,510,ship,edge,drag-penalty,drop-slack
+m007,g007,risk density,47,17,48,42,19,hold,recovery,confidence-floor,raise-drag
+m008,g008,false positive cost,66,67,13,54,375,ship,negative,lane-boundary,lower-confidence
+m009,g009,rule hit,44,60,22,41,224,ship,baseline,monotonic-signal,raise-signal
+m010,g010,source span,67,13,7,32,256,ship,edge,drag-penalty,drop-slack
+m011,g011,risk density,87,8,50,75,177,watch,recovery,confidence-floor,raise-drag
+m012,g012,false positive cost,100,73,41,88,417,ship,negative,lane-boundary,lower-confidence
+m013,g013,rule hit,119,73,14,33,499,ship,baseline,monotonic-signal,raise-signal
+m014,g014,source span,75,64,9,46,400,ship,edge,drag-penalty,drop-slack
+m015,g015,risk density,105,44,15,100,528,ship,recovery,confidence-floor,raise-drag
+m016,g016,false positive cost,35,31,9,76,274,ship,negative,lane-boundary,lower-confidence
+m017,g017,rule hit,57,27,32,45,155,watch,baseline,monotonic-signal,raise-signal
+m018,g018,source span,102,16,45,27,167,watch,edge,drag-penalty,drop-slack
+m019,g019,risk density,44,65,18,66,304,ship,recovery,confidence-floor,raise-drag
+m020,g020,false positive cost,63,51,16,77,365,ship,negative,lane-boundary,lower-confidence
+m021,g021,rule hit,85,12,41,20,114,hold,baseline,monotonic-signal,raise-signal
+m022,g022,source span,86,54,13,41,383,ship,edge,drag-penalty,drop-slack
+m023,g023,risk density,50,24,50,48,44,hold,recovery,confidence-floor,raise-drag
+m024,g024,false positive cost,80,76,38,86,374,ship,negative,lane-boundary,lower-confidence
+m025,g025,rule hit,63,32,16,86,345,ship,baseline,monotonic-signal,raise-signal
+m026,g026,source span,45,4,7,41,190,ship,edge,drag-penalty,drop-slack
+m027,g027,risk density,88,44,32,66,324,ship,recovery,confidence-floor,raise-drag
+m028,g028,false positive cost,113,61,35,27,340,ship,negative,lane-boundary,lower-confidence
+m029,g029,rule hit,50,72,42,31,146,watch,baseline,monotonic-signal,raise-signal
+m030,g030,source span,96,34,26,74,374,ship,edge,drag-penalty,drop-slack
+m031,g031,risk density,39,69,47,100,220,ship,recovery,confidence-floor,raise-drag
+m032,g032,false positive cost,55,48,7,19,264,ship,negative,lane-boundary,lower-confidence
+m033,g033,rule hit,79,75,34,45,307,ship,baseline,monotonic-signal,raise-signal
+m034,g034,source span,37,10,28,99,189,ship,edge,drag-penalty,drop-slack
+m035,g035,risk density,68,67,33,88,349,ship,recovery,confidence-floor,raise-drag
+m036,g036,false positive cost,87,22,41,31,162,watch,negative,lane-boundary,lower-confidence
+m037,g037,rule hit,65,72,36,26,211,ship,baseline,monotonic-signal,raise-signal
+m038,g038,source span,88,54,35,65,327,ship,edge,drag-penalty,drop-slack
+m039,g039,risk density,107,29,43,89,342,ship,recovery,confidence-floor,raise-drag
+m040,g040,false positive cost,76,13,17,92,353,ship,negative,lane-boundary,lower-confidence
+m041,g041,rule hit,117,8,30,40,297,ship,baseline,monotonic-signal,raise-signal
+m042,g042,source span,40,0,38,47,24,hold,edge,drag-penalty,drop-slack
+m043,g043,risk density,53,10,50,98,125,watch,recovery,confidence-floor,raise-drag
+m044,g044,false positive cost,63,49,26,72,301,ship,negative,lane-boundary,lower-confidence
+m045,g045,rule hit,125,36,40,40,327,ship,baseline,monotonic-signal,raise-signal
+m046,g046,source span,58,21,28,65,206,ship,edge,drag-penalty,drop-slack
+m047,g047,risk density,76,32,30,39,220,ship,recovery,confidence-floor,raise-drag
+m048,g048,false positive cost,89,70,43,17,226,ship,negative,lane-boundary,lower-confidence
+m049,g049,rule hit,64,56,34,73,280,ship,baseline,monotonic-signal,raise-signal
+m050,g050,source span,85,6,10,99,415,ship,edge,drag-penalty,drop-slack
+m051,g051,risk density,104,70,27,31,379,ship,recovery,confidence-floor,raise-drag
+m052,g052,false positive cost,117,29,27,31,336,ship,negative,lane-boundary,lower-confidence
+m053,g053,rule hit,48,11,11,98,307,ship,baseline,monotonic-signal,raise-signal
+m054,g054,source span,91,26,25,87,374,ship,edge,drag-penalty,drop-slack
+m055,g055,risk density,33,20,41,43,20,hold,recovery,confidence-floor,raise-drag
+m056,g056,false positive cost,95,49,19,12,312,ship,negative,lane-boundary,lower-confidence
+m057,g057,rule hit,95,66,13,64,480,ship,baseline,monotonic-signal,raise-signal
+m058,g058,source span,41,66,11,88,376,ship,edge,drag-penalty,drop-slack
+m059,g059,risk density,66,50,33,104,341,ship,recovery,confidence-floor,raise-drag
+m060,g060,false positive cost,82,74,21,26,341,ship,negative,lane-boundary,lower-confidence
+m061,g061,rule hit,58,53,20,46,272,ship,baseline,monotonic-signal,raise-signal
+m062,g062,source span,80,0,21,97,329,ship,edge,drag-penalty,drop-slack
+m063,g063,risk density,96,26,51,84,253,ship,recovery,confidence-floor,raise-drag
+m064,g064,false positive cost,111,72,15,26,454,ship,negative,lane-boundary,lower-confidence
+m065,g065,rule hit,87,27,23,64,328,ship,baseline,monotonic-signal,raise-signal
+m066,g066,source span,109,66,28,38,395,ship,edge,drag-penalty,drop-slack
+m067,g067,risk density,40,70,18,29,228,ship,recovery,confidence-floor,raise-drag
+m068,g068,false positive cost,97,34,25,59,352,ship,negative,lane-boundary,lower-confidence
+m069,g069,rule hit,50,18,13,98,317,ship,baseline,monotonic-signal,raise-signal
+m070,g070,source span,60,2,8,30,204,ship,edge,drag-penalty,drop-slack
+m071,g071,risk density,117,13,35,43,288,ship,recovery,confidence-floor,raise-drag
+m072,g072,false positive cost,61,15,19,84,286,ship,negative,lane-boundary,lower-confidence
+m073,g073,rule hit,90,54,37,86,365,ship,baseline,monotonic-signal,raise-signal
+m074,g074,source span,94,30,5,42,401,ship,edge,drag-penalty,drop-slack
+m075,g075,risk density,104,37,19,24,339,ship,recovery,confidence-floor,raise-drag
+m076,g076,false positive cost,69,37,38,50,191,ship,negative,lane-boundary,lower-confidence
+m077,g077,rule hit,108,75,10,87,598,ship,baseline,monotonic-signal,raise-signal
+m078,g078,source span,117,50,19,103,562,ship,edge,drag-penalty,drop-slack
+m079,g079,risk density,42,22,11,38,191,ship,recovery,confidence-floor,raise-drag
+m080,g080,false positive cost,96,75,40,32,302,ship,negative,lane-boundary,lower-confidence
+m081,g081,rule hit,47,34,38,96,211,ship,baseline,monotonic-signal,raise-signal
+m082,g082,source span,57,5,11,83,292,ship,edge,drag-penalty,drop-slack
+m083,g083,risk density,70,42,13,38,305,ship,recovery,confidence-floor,raise-drag
+m084,g084,false positive cost,80,25,5,50,365,ship,negative,lane-boundary,lower-confidence
+m085,g085,rule hit,53,54,6,37,311,ship,baseline,monotonic-signal,raise-signal
+m086,g086,source span,74,60,29,28,253,ship,edge,drag-penalty,drop-slack
+m087,g087,risk density,48,12,49,71,65,hold,recovery,confidence-floor,raise-drag
+m088,g088,false positive cost,39,55,8,84,355,ship,negative,lane-boundary,lower-confidence
+m089,g089,rule hit,91,9,13,29,284,ship,baseline,monotonic-signal,raise-signal
+m090,g090,source span,107,47,38,42,309,ship,edge,drag-penalty,drop-slack
+m091,g091,risk density,35,15,17,96,242,ship,recovery,confidence-floor,raise-drag
+m092,g092,false positive cost,90,31,40,72,276,ship,negative,lane-boundary,lower-confidence
+m093,g093,rule hit,42,77,35,41,187,ship,baseline,monotonic-signal,raise-signal
+m094,g094,source span,49,21,13,23,170,watch,edge,drag-penalty,drop-slack
+m095,g095,risk density,64,12,11,62,285,ship,recovery,confidence-floor,raise-drag
+m096,g096,false positive cost,31,75,22,73,279,ship,negative,lane-boundary,lower-confidence

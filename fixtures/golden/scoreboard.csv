@@ -1,0 +1,97 @@
+id,focus,signal,slack,drag,confidence,score,lane,kind,invariant
+g001,rule hit,102,40,11,91,513,ship,baseline,monotonic-signal
+g002,source span,117,64,31,21,366,ship,edge,drag-penalty
+g003,risk density,84,43,22,42,312,ship,recovery,confidence-floor
+g004,false positive cost,115,70,40,49,383,ship,negative,lane-boundary
+g005,rule hit,46,16,8,100,330,ship,baseline,monotonic-signal
+g006,source span,103,62,15,87,532,ship,edge,drag-penalty
+g007,risk density,47,17,41,42,54,hold,recovery,confidence-floor
+g008,false positive cost,66,67,13,67,401,ship,negative,lane-boundary
+g009,rule hit,35,60,22,41,197,ship,baseline,monotonic-signal
+g010,source span,67,24,7,32,278,ship,edge,drag-penalty
+g011,risk density,87,8,43,75,212,ship,recovery,confidence-floor
+g012,false positive cost,100,73,41,101,443,ship,negative,lane-boundary
+g013,rule hit,110,73,14,33,472,ship,baseline,monotonic-signal
+g014,source span,75,75,9,46,422,ship,edge,drag-penalty
+g015,risk density,105,44,8,100,563,ship,recovery,confidence-floor
+g016,false positive cost,35,31,9,89,300,ship,negative,lane-boundary
+g017,rule hit,48,27,32,45,128,watch,baseline,monotonic-signal
+g018,source span,102,27,45,27,189,ship,edge,drag-penalty
+g019,risk density,44,65,11,66,339,ship,recovery,confidence-floor
+g020,false positive cost,63,51,16,90,391,ship,negative,lane-boundary
+g021,rule hit,76,12,41,20,87,hold,baseline,monotonic-signal
+g022,source span,86,65,13,41,405,ship,edge,drag-penalty
+g023,risk density,50,24,43,48,79,hold,recovery,confidence-floor
+g024,false positive cost,80,76,38,99,400,ship,negative,lane-boundary
+g025,rule hit,54,32,16,86,318,ship,baseline,monotonic-signal
+g026,source span,45,15,7,41,212,ship,edge,drag-penalty
+g027,risk density,88,44,25,66,359,ship,recovery,confidence-floor
+g028,false positive cost,113,61,35,40,366,ship,negative,lane-boundary
+g029,rule hit,41,72,42,31,119,watch,baseline,monotonic-signal
+g030,source span,96,45,26,74,396,ship,edge,drag-penalty
+g031,risk density,39,69,40,100,255,ship,recovery,confidence-floor
+g032,false positive cost,55,48,7,32,290,ship,negative,lane-boundary
+g033,rule hit,70,75,34,45,280,ship,baseline,monotonic-signal
+g034,source span,37,21,28,99,211,ship,edge,drag-penalty
+g035,risk density,68,67,26,88,384,ship,recovery,confidence-floor
+g036,false positive cost,87,22,41,44,188,ship,negative,lane-boundary
+g037,rule hit,56,72,36,26,184,ship,baseline,monotonic-signal
+g038,source span,88,65,35,65,349,ship,edge,drag-penalty
+g039,risk density,107,29,36,89,377,ship,recovery,confidence-floor
+g040,false positive cost,76,13,17,105,379,ship,negative,lane-boundary
+g041,rule hit,108,8,30,40,270,ship,baseline,monotonic-signal
+g042,source span,40,8,38,47,40,hold,edge,drag-penalty
+g043,risk density,53,10,43,98,160,watch,recovery,confidence-floor
+g044,false positive cost,63,49,26,85,327,ship,negative,lane-boundary
+g045,rule hit,116,36,40,40,300,ship,baseline,monotonic-signal
+g046,source span,58,32,28,65,228,ship,edge,drag-penalty
+g047,risk density,76,32,23,39,255,ship,recovery,confidence-floor
+g048,false positive cost,89,70,43,30,252,ship,negative,lane-boundary
+g049,rule hit,55,56,34,73,253,ship,baseline,monotonic-signal
+g050,source span,85,17,10,99,437,ship,edge,drag-penalty
+g051,risk density,104,70,20,31,414,ship,recovery,confidence-floor
+g052,false positive cost,117,29,27,44,362,ship,negative,lane-boundary
+g053,rule hit,39,11,11,98,280,ship,baseline,monotonic-signal
+g054,source span,91,37,25,87,396,ship,edge,drag-penalty
+g055,risk density,33,20,34,43,55,hold,recovery,confidence-floor
+g056,false positive cost,95,49,19,25,338,ship,negative,lane-boundary
+g057,rule hit,86,66,13,64,453,ship,baseline,monotonic-signal
+g058,source span,41,77,11,88,398,ship,edge,drag-penalty
+g059,risk density,66,50,26,104,376,ship,recovery,confidence-floor
+g060,false positive cost,82,74,21,39,367,ship,negative,lane-boundary
+g061,rule hit,49,53,20,46,245,ship,baseline,monotonic-signal
+g062,source span,80,10,21,97,349,ship,edge,drag-penalty
+g063,risk density,96,26,44,84,288,ship,recovery,confidence-floor
+g064,false positive cost,111,72,15,39,480,ship,negative,lane-boundary
+g065,rule hit,78,27,23,64,301,ship,baseline,monotonic-signal
+g066,source span,109,77,28,38,417,ship,edge,drag-penalty
+g067,risk density,40,70,11,29,263,ship,recovery,confidence-floor
+g068,false positive cost,97,34,25,72,378,ship,negative,lane-boundary
+g069,rule hit,41,18,13,98,290,ship,baseline,monotonic-signal
+g070,source span,60,13,8,30,226,ship,edge,drag-penalty
+g071,risk density,117,13,28,43,323,ship,recovery,confidence-floor
+g072,false positive cost,61,15,19,97,312,ship,negative,lane-boundary
+g073,rule hit,81,54,37,86,338,ship,baseline,monotonic-signal
+g074,source span,94,41,5,42,423,ship,edge,drag-penalty
+g075,risk density,104,37,12,24,374,ship,recovery,confidence-floor
+g076,false positive cost,69,37,38,63,217,ship,negative,lane-boundary
+g077,rule hit,99,75,10,87,571,ship,baseline,monotonic-signal
+g078,source span,117,61,19,103,584,ship,edge,drag-penalty
+g079,risk density,42,22,4,38,226,ship,recovery,confidence-floor
+g080,false positive cost,96,75,40,45,328,ship,negative,lane-boundary
+g081,rule hit,38,34,38,96,184,ship,baseline,monotonic-signal
+g082,source span,57,16,11,83,314,ship,edge,drag-penalty
+g083,risk density,70,42,6,38,340,ship,recovery,confidence-floor
+g084,false positive cost,80,25,5,63,391,ship,negative,lane-boundary
+g085,rule hit,44,54,6,37,284,ship,baseline,monotonic-signal
+g086,source span,74,71,29,28,275,ship,edge,drag-penalty
+g087,risk density,48,12,42,71,100,hold,recovery,confidence-floor
+g088,false positive cost,39,55,8,97,381,ship,negative,lane-boundary
+g089,rule hit,82,9,13,29,257,ship,baseline,monotonic-signal
+g090,source span,107,58,38,42,331,ship,edge,drag-penalty
+g091,risk density,35,15,10,96,277,ship,recovery,confidence-floor
+g092,false positive cost,90,31,40,85,302,ship,negative,lane-boundary
+g093,rule hit,33,77,35,41,160,watch,baseline,monotonic-signal
+g094,source span,49,32,13,23,192,ship,edge,drag-penalty
+g095,risk density,64,12,4,62,320,ship,recovery,confidence-floor
+g096,false positive cost,31,75,22,86,305,ship,negative,lane-boundary
