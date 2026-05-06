@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,64,84,19,13,8,170,review,static analysis baseline scenario exercises the review path for bounded failure handling
+pressure,82,69,27,21,8,143,review,static analysis pressure scenario exercises the review path for bounded failure handling
+surge,104,97,24,14,13,279,accept,static analysis surge scenario keeps the local fixture within the modeled acceptance band
+degraded,71,55,34,26,8,73,review,static analysis degraded scenario exercises the review path for bounded failure handling
+recovery,90,108,19,13,9,252,accept,static analysis recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,71,86,20,15,9,182,accept,static analysis boundary scenario keeps the local fixture within the modeled acceptance band
